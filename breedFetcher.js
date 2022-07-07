@@ -22,7 +22,8 @@ module.exports = {
   fetchBreedDescription
 };
 
-// no export
+// before refactor
+// const searchTerm = process.argv[2];
 // request(`https://api.thecatapi.com/v1/breeds/search?q=${searchTerm}`, (error, response, body) => {
 //   if (error) {
 //     console.log(`There was an error with the request`);
